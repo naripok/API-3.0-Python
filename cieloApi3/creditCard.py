@@ -3,16 +3,16 @@ from .objectJSON import ObjectJSON
 
 class CreditCard(ObjectJSON):
 
-    def __init__(self, security_code, brand):
+    def __init__(self, customer_name, card_number, holder, expiration_date, security_code, brand, save_card=False):
 
-        self.card_number = None
-        self.holder = None
-        self.expiration_date = None
+        self.card_number = card_number
+        self.holder = holder
+        self.expiration_date = expiration_date
         self.security_code = security_code
-        self.save_card = None
+        self.save_card = save_card
         self.brand = brand
         self.card_token = None
-        self.customer_name = None
+        self.customer_name = customer_name
 
 
     def update_return(self, response_return):

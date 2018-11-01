@@ -3,11 +3,11 @@ from .objectJSON import ObjectJSON
 
 class Sale(ObjectJSON):
 
-    def __init__(self, merchant_order_id):
+    def __init__(self, merchant_order_id, costumer=None, payment=None):
 
         self.merchant_order_id = merchant_order_id
-        self.customer = None
-        self.payment = None
+        self.customer = costumer
+        self.payment = payment
 
     def update_return(self, r):
 
