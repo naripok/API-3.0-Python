@@ -34,32 +34,13 @@ settings.update(
         'Natural Language :: English',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
-        # 'Programming Language :: Python :: 2.5',
         'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
     )
 )
 
 
 setup(**settings)
-
-
-
-
-# # -*- coding: utf-8 -*-
-# from setuptools import setup
-
-# setup(
-#     name='cieloApi3',
-#     version='0.1.1',
-#     url='',
-#     license='MIT License',
-#     author='Thiago Malaquias',
-#     author_email='',
-#     keywords='api3.0 cielo python sdk ecommerce',
-#     description=u'',
-#     packages=['cielo.api30'],
-#     install_requires=['requests'],
-# )
