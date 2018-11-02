@@ -3,7 +3,7 @@ from .objectJSON import ObjectJSON
 
 class CreditCard(ObjectJSON):
 
-    def __init__(self, customer_name, card_number, holder, expiration_date, security_code, brand, card_token=None, save_card=False):
+    def __init__(self, customer_name=None, card_number=None, holder=None, expiration_date=None, security_code=None, brand=None, card_token=None, save_card=False):
 
         self.card_number = card_number
         self.holder = holder
