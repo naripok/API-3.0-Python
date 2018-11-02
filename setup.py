@@ -19,7 +19,7 @@ if sys.argv[-1] == 'publish':
 
 settings.update(
     name='cieloApi3',
-    version='0.1.7',
+    version='0.1.8',
     description='SDK API-3.0 Python Cielo',
     author='Thiago Malaquias / Fernando Canteruccio',
     author_email='thiago.malaca@gmail.com / fernando.canteruccio@gmail.com',

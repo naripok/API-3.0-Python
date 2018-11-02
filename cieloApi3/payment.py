@@ -12,7 +12,7 @@ PROVIDER_SIMULADO = "Simulado"
 
 class Payment(ObjectJSON):
 
-    def __init__(self, amount, installments = 1):
+    def __init__(self, amount, installments=1, credit_card=None):
 
         self.amount = amount
         self.service_tax_amount = None
@@ -22,7 +22,7 @@ class Payment(ObjectJSON):
         self.authenticate = None
         self.recurrent = None
         self.recurrent_payment = None
-        self.credit_card = None
+        self.credit_card = credit_card
         self.proof_of_sale = None
         self.authorization_code = None
         self.soft_descriptor = None
